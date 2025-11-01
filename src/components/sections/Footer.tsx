@@ -24,7 +24,6 @@ export default function Footer() {
           {/* Logo and description */}
           <div className="flex flex-col items-center text-center md:items-start md:text-left">
             <div className="flex items-center gap-2 mb-4">
-            {/* <Image src="/logo.webp" alt="Flowote" width={32} height={32} className="rounded" /> */}
               <span className="text-xl font-semibold">NextKit</span>
             </div>
             <p className="text-sm text-muted-foreground mb-4 max-w-xs">

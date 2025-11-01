@@ -22,18 +22,10 @@ export default function FaqSesion() {
       question: "Is it production-ready?",
       answer: "Yes, NextKit is designed to be a solid foundation for production applications. It includes best practices for project structure, environment variables, and more."
     },
-    // {
-    //   question: "Can I collaborate with my team?",
-    //   answer: "Yes! Pro plan users can share their workspaces and collaborate on content creation. Advanced plan users get additional team features like role management, shared templates, and analytics tracking for team performance."
-    // },
     {
       question: "How can I deploy it?",
       answer: "You can deploy this project to any platform that supports Next.js, such as Vercel, Netlify, or your own server. Just connect your Git repository and follow the platform's instructions."
     },
-    // {
-    //   question: "Is there a limit to how much content I can upload?",
-    //   answer: "Free plans can upload up to 5 sources per flow. Pro plans allow unlimited uploads with a 100MB size limit per file. Advanced plans increase this to 500MB per file and add support for additional file formats."
-    // },
     {
       question: "Is it customizable?",
       answer: "Absolutely! The entire codebase is available for you to modify. You can easily change the styling, add new features, or integrate with other services to fit your needs."
@@ -43,7 +35,7 @@ export default function FaqSesion() {
   return (
     <section id="faq" className="py-24 relative overflow-hidden">
       {/* Background decoration */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,_#E2E8F0_0%,_transparent_40%)] opacity-40" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,#E2E8F0_0%,transparent_40%)] opacity-40" />
       
       <div className="container mx-auto px-6">
         {/* Header */}

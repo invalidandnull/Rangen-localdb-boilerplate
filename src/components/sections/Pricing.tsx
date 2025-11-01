@@ -17,7 +17,7 @@ export default function Pricing() {
   const handleUpgradeToPro = async () => {
     await authClient.subscription.upgrade({
       plan: "pro",
-      successUrl: "/flow",
+      successUrl: "/",
       cancelUrl: "/"
     });
   };

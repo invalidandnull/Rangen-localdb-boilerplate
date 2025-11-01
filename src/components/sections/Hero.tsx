@@ -30,7 +30,7 @@ export default function Hero() {
               The Next.js Starter Kit
             </div>
             <div className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-primary mt-2">
-              You've Always Wanted
+              You&apos;ve Always Wanted
             </div>
           </h1>
           

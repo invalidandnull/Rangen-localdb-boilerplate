@@ -12,10 +12,6 @@ export default async function Navbar() {
         <div className="flex items-center justify-between mx-20">
           <div className="flex-1 flex justify-start items-center gap-2">
             <Link href="/" className="flex items-center gap-2">
-              {/* <div className="w-8 h-8 bg-primary rounded flex items-center justify-center">
-                <span className="text-white font-bold">F</span>
-              </div> */}
-              {/* <Image src="/logo.webp" alt="Flowote" width={32} height={32} className="rounded" /> */}
               <span className="text-xl font-semibold">Rangen&apos;s NextKit</span>
             </Link>
           </div>
