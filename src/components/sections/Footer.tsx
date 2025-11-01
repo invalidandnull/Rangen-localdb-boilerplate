@@ -25,11 +25,11 @@ export default function Footer() {
           {/* Logo and description */}
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-            <Image src="/logo.webp" alt="Flowote" width={32} height={32} className="rounded" />
-              <span className="text-xl font-semibold">Flowote</span>
+            {/* <Image src="/logo.webp" alt="Flowote" width={32} height={32} className="rounded" /> */}
+              <span className="text-xl font-semibold">NextKit</span>
             </div>
             <p className="text-sm text-muted-foreground mb-4">
-              Transform your ideas into winning content with AI-powered tools and visual workspaces.
+              A Next.js starter kit with everything you need to build your next project.
             </p>
             <div className="flex items-center gap-2">
               <Button variant="outline" size="icon" asChild>
@@ -95,10 +95,10 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t py-6 text-center md:flex md:justify-between md:text-left">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} Flowote. All rights reserved.
+            © {currentYear} NextKit. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground mt-2 md:mt-0">
-            Made with ❤️ for better content
+            Made with ❤️ for developers
           </p>
         </div>
       </div>

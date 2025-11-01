@@ -15,8 +15,8 @@ export default async function Navbar() {
             {/* <div className="w-8 h-8 bg-primary rounded flex items-center justify-center">
               <span className="text-white font-bold">F</span>
             </div> */}
-            <Image src="/logo.webp" alt="Flowote" width={32} height={32} className="rounded" />
-            <span className="text-xl font-semibold">Flowote</span>
+            {/* <Image src="/logo.webp" alt="Flowote" width={32} height={32} className="rounded" /> */}
+            <span className="text-xl font-semibold">NextKit</span>
           </Link>
 
           <div className="hidden md:flex items-center gap-8">

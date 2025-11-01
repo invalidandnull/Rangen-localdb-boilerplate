@@ -86,8 +86,10 @@ export function SignupForm({
     <div className={cn("flex flex-col gap-6", className)} {...props}>
       <Card>
         <CardHeader className="text-center">
-          <CardTitle className="text-xl">Welcome back</CardTitle>
-          <CardDescription>Signup with your Google account</CardDescription>
+          <CardTitle className="text-xl">Create an Account</CardTitle>
+          <CardDescription>
+            Choose your preferred sign-up method
+          </CardDescription>
         </CardHeader>
         <CardContent>
           <Form {...form}>
@@ -175,7 +177,7 @@ export function SignupForm({
                     {isLoading ? (
                       <Loader2 className="size-4 animate-spin" />
                     ) : (
-                      "Signup"
+                      "Create Account"
                     )}
                   </Button>
                 </div>

@@ -16,7 +16,7 @@ export default async function LoginPage() {
           href="/"
           className="flex items-center gap-2 self-center font-medium"
         >
-          Better Auth Starter
+          NextKit
         </Link>
         <LoginForm />
       </div>

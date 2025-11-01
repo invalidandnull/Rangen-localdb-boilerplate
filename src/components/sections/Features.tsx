@@ -11,7 +11,7 @@ export default function Features() {
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             Here&apos;s How You Turn Ideas
-            <span className="block">Into Winning Content 5x Faster</span>
+            <span className="block">Into Winning 5x Faster</span>
           </h2>
         </div>
 
@@ -22,19 +22,19 @@ export default function Features() {
             {/* <div className="w-24 h-24 rounded-xl bg-blue-500/20 flex items-center justify-center">
               <div className="w-12 h-12 rounded-lg bg-blue-500/40" />
             </div> */}
-            <Image src={"/features/1.png"} alt="Bring your Sources" className="rounded-xl" width={500} height={500} />
+            {/* <Image src={"/features/1.png"} alt="Bring your Sources" className="rounded-xl" width={500} height={500} /> */}
           </div>
           
           {/* Content */}
           <div>
             <h3 className="text-2xl md:text-3xl font-bold mb-4">
-              Bring your Sources
+              Authentication Ready
             </h3>
             <p className="text-lg text-muted-foreground mb-6">
-              Upload your existing content - videos, websites, PDFs. AI automatically analyzes and organizes everything. No formatting, no prep work, just instant understanding.
+              Secure, cookie-based authentication with BetterAuth. Supports email/password, social logins, and more.
             </p>
             <Button variant="outline" className="gap-2">
-              Start for free
+              Learn More
               <ArrowRight className="w-4 h-4" />
             </Button>
           </div>
@@ -45,13 +45,13 @@ export default function Features() {
           {/* Content */}
           <div>
             <h3 className="text-2xl md:text-3xl font-bold mb-4">
-              Connect the Dots
+              Database Included
             </h3>
             <p className="text-lg text-muted-foreground mb-6">
-              Our AI analyzes your content, identifies key themes, and creates meaningful connections. Discover insights and patterns you might have missed.
+              Comes with Drizzle ORM and a local SQLite database. Easily switch to PostgreSQL or MySQL.
             </p>
             <Button variant="outline" className="gap-2">
-              See it in action
+              Learn More
               <ArrowRight className="w-4 h-4" />
             </Button>
           </div>
@@ -61,7 +61,7 @@ export default function Features() {
             {/* <div className="w-24 h-24 rounded-xl bg-purple-500/20 flex items-center justify-center">
               <div className="w-12 h-12 rounded-lg bg-purple-500/40" />
             </div> */}
-            <Image src={"/features/2.png"} alt="Bring your Sources" className="rounded-xl" width={500} height={500} />
+            {/* <Image src={"/features/2.png"} alt="Bring your Sources" className="rounded-xl" width={500} height={500} /> */}
           </div>
         </div>
 
@@ -72,19 +72,19 @@ export default function Features() {
             {/* <div className="w-24 h-24 rounded-xl bg-emerald-500/20 flex items-center justify-center">
               <div className="w-12 h-12 rounded-lg bg-emerald-500/40" />
             </div> */}
-            <Image src={"/features/31.png"} alt="Bring your Sources" className="rounded-xl" width={500} height={500} />
+            {/* <Image src={"/features/31.png"} alt="Bring your Sources" className="rounded-xl" width={500} height={500} /> */}
           </div>
 
           {/* Content */}
           <div>
             <h3 className="text-2xl md:text-3xl font-bold mb-4">
-              Generate Winning Content
+              UI Components
             </h3>
             <p className="text-lg text-muted-foreground mb-6">
-              Transform your research into engaging content. Our AI helps you create blog posts, social media content, and more while maintaining your brand&apos;s voice.
+              Beautifully designed components from Shadcn UI. Fully customizable with Tailwind CSS.
             </p>
             <Button variant="outline" className="gap-2">
-              Try it yourself
+              Learn More
               <ArrowRight className="w-4 h-4" />
             </Button>
           </div>
@@ -95,13 +95,13 @@ export default function Features() {
           {/* Content */}
           <div>
             <h3 className="text-2xl md:text-3xl font-bold mb-4">
-              Share and Collaborate
+              And Much More
             </h3>
             <p className="text-lg text-muted-foreground mb-6">
-              Work together with your team in real-time. Share your research, get feedback, and iterate on content until it&apos;s perfect.
+              Includes Stripe integration for payments, dark mode, and a clean project structure.
             </p>
             <Button variant="outline" className="gap-2">
-              Start collaborating
+              Learn More
               <ArrowRight className="w-4 h-4" />
             </Button>
           </div>
@@ -111,7 +111,7 @@ export default function Features() {
             {/* <div className="w-24 h-24 rounded-xl bg-amber-500/20 flex items-center justify-center">
               <div className="w-12 h-12 rounded-lg bg-amber-500/40" />
             </div> */}
-            <Image src={"/features/4.png"} alt="Bring your Sources" className="rounded-xl" width={500} height={500} />
+            {/* <Image src={"/features/4.png"} alt="Bring your Sources" className="rounded-xl" width={500} height={500} /> */}
           </div>
         </div>
       </div>

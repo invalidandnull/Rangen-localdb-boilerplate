@@ -10,7 +10,7 @@ export default function SignupPage() {
           href="/"
           className="flex items-center gap-2 self-center font-medium"
         >
-          Better Auth Starter
+          NextKit
         </Link>
         <SignupForm />
       </div>

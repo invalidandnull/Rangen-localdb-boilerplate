@@ -27,32 +27,32 @@ export default function Hero() {
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="mb-6">
             <div className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight">
-              Supercharge Your Content
+              The Next.js Starter Kit
             </div>
             <div className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-primary mt-2">
-              With AI-Powered Workflow
+              You've Always Wanted
             </div>
           </h1>
           
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Create, edit, and publish content 5x faster with our intelligent workflow platform. 
-            Let AI handle the heavy lifting while you focus on what matters most - your creativity.
+            Jumpstart your project with a feature-rich, production-ready Next.js boilerplate.
+            Includes authentication, database, UI components, and more.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             {session ? (
-              <Button size="lg" className="gap-2 hover:cursor-pointer" onClick={() => router.push("/flow")}>
-                Start creating for free
+              <Button size="lg" className="gap-2 hover:cursor-pointer" onClick={() => router.push("/dashboard")}>
+                Go to Dashboard
                 <ArrowRight className="w-4 h-4" />
               </Button>
             ) : (
               <Button size="lg" className="gap-2 hover:cursor-pointer" onClick={async () => {
                 await authClient.signIn.social({
                   provider: "google",
-                  callbackURL: "/flow"
+                  callbackURL: "/dashboard"
                 });
               }}>
-                Start creating for free
+                Get Started for Free
                 <ArrowRight className="w-4 h-4" />
               </Button>
             )}
