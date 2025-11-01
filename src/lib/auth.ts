@@ -6,7 +6,6 @@ import { stripe } from "@better-auth/stripe"
 import Stripe from "stripe"
 import { eq } from "drizzle-orm";
 import { customSession } from "better-auth/plugins";
-import { lastLoginMethod } from "better-auth/plugins"
 
 export const auth = betterAuth({
   emailAndPassword: {
@@ -73,10 +72,9 @@ export const auth = betterAuth({
         }
       }
     }),
-    lastLoginMethod()
   ],
   database: drizzleAdapter(db, {
-    provider: "pg", // or "mysql", "sqlite"
+    provider: "sqlite", // or "mysql", "sqlite"
     schema: {
       user: user,
       session: session,

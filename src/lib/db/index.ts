@@ -1,10 +1,14 @@
-import { neon } from '@neondatabase/serverless';
-import { drizzle } from 'drizzle-orm/neon-http';
+import { drizzle } from 'drizzle-orm/libsql';
+import { createClient } from '@libsql/client';
 import * as schema from '../auth-schema'
 import { eq } from 'drizzle-orm';
 
-const sql = neon(process.env.DATABASE_URL!);
-export const db = drizzle( sql,{schema});
+const client = createClient({
+    url: process.env.DATABASE_URL!,
+    authToken: process.env.DATABASE_AUTH_TOKEN,
+});
+
+export const db = drizzle(client, { schema });
 
 export async function updateUserCredit(userId: string, credit: number) {
     await db.update(schema.user).set({

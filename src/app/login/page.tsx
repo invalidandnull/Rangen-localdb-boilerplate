@@ -2,13 +2,12 @@ import Link from "next/link";
 
 import { LoginForm } from "@/components/forms/login-form";
 import { getServerSession } from "@/lib/auth/get-session";
+import { redirect } from "next/navigation";
 
 export default async function LoginPage() {
   const session = await getServerSession();
   if (session) {
-    return (
-      <div>{session?.user.email}</div>
-    )
+    redirect("/");
   }
   return (
     <div className="bg-muted flex min-h-svh flex-col items-center justify-center gap-6 p-6 md:p-10">

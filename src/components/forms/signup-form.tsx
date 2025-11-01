@@ -72,9 +72,9 @@ export function SignupForm({
 
     if (success) {
       toast.success(
-        `${message as string} Please check your email for verification.`
+        `${message as string}`
       );
-      router.push("/");
+      router.push("/login");
     } else {
       toast.error(message as string);
     }
