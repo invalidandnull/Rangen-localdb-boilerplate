@@ -125,7 +125,7 @@ export function SignupForm({
                         <FormItem>
                           <FormLabel>Username</FormLabel>
                           <FormControl>
-                            <Input placeholder="shadcn" {...field} />
+                            <Input placeholder="Enter your username" {...field} />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
@@ -139,7 +139,7 @@ export function SignupForm({
                         <FormItem>
                           <FormLabel>Email</FormLabel>
                           <FormControl>
-                            <Input placeholder="m@example.com" {...field} />
+                            <Input placeholder="Enter your email" {...field} />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
@@ -156,7 +156,7 @@ export function SignupForm({
                             <FormLabel>Password</FormLabel>
                             <FormControl>
                               <Input
-                                placeholder="********"
+                                placeholder="Enter your password"
                                 {...field}
                                 type="password"
                               />
@@ -165,12 +165,6 @@ export function SignupForm({
                           </FormItem>
                         )}
                       />
-                      <Link
-                        href="/forgot-password"
-                        className="ml-auto text-sm underline-offset-4 hover:underline"
-                      >
-                        Forgot your password?
-                      </Link>
                     </div>
                   </div>
                   <Button type="submit" className="w-full" disabled={isLoading}>
@@ -194,8 +188,8 @@ export function SignupForm({
       </Card>
       <div className="text-muted-foreground *:[a]:hover:text-primary text-center text-xs text-balance *:[a]:underline *:[a]:underline-offset-4">
         By clicking continue, you agree to our{" "}
-        <Link href="#">Terms of Service</Link> and{" "}
-        <Link href="#">Privacy Policy</Link>.
+        <Link href="/terms">Terms of Service</Link> and{" "}
+        <Link href="/privacy">Privacy Policy</Link>.
       </div>
     </div>
   );

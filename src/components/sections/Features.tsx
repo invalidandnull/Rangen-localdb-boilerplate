@@ -1,7 +1,6 @@
 // import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 
 export default function Features() {
   return (
@@ -18,7 +17,7 @@ export default function Features() {
         {/* Feature 1: Bring your Sources */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-24 max-w-7xl mx-auto">
           {/* Image placeholder */}
-          <div className="aspect-square rounded-3xl bg-gradient-to-br from-blue-100 to-blue-50 border shadow-lg p-8 flex items-center justify-center">
+          <div className="aspect-square rounded-3xl bg-linear-to-br from-blue-100 to-blue-50 border shadow-lg p-8 flex items-center justify-center">
             {/* <div className="w-24 h-24 rounded-xl bg-blue-500/20 flex items-center justify-center">
               <div className="w-12 h-12 rounded-lg bg-blue-500/40" />
             </div> */}
@@ -57,7 +56,7 @@ export default function Features() {
           </div>
 
           {/* Image placeholder */}
-          <div className="aspect-square rounded-3xl bg-gradient-to-br from-purple-100 to-purple-50 border shadow-lg p-8 flex items-center justify-center">
+          <div className="aspect-square rounded-3xl bg-linear-to-br from-purple-100 to-purple-50 border shadow-lg p-8 flex items-center justify-center">
             {/* <div className="w-24 h-24 rounded-xl bg-purple-500/20 flex items-center justify-center">
               <div className="w-12 h-12 rounded-lg bg-purple-500/40" />
             </div> */}
@@ -68,7 +67,7 @@ export default function Features() {
         {/* Feature 3: Content Generation */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-24 max-w-7xl mx-auto">
           {/* Image placeholder */}
-          <div className="aspect-square rounded-3xl bg-gradient-to-br from-emerald-100 to-emerald-50 border shadow-lg p-8 flex items-center justify-center">
+          <div className="aspect-square rounded-3xl bg-linear-to-br from-emerald-100 to-emerald-50 border shadow-lg p-8 flex items-center justify-center">
             {/* <div className="w-24 h-24 rounded-xl bg-emerald-500/20 flex items-center justify-center">
               <div className="w-12 h-12 rounded-lg bg-emerald-500/40" />
             </div> */}
@@ -107,7 +106,7 @@ export default function Features() {
           </div>
 
           {/* Image placeholder */}
-          <div className="aspect-square rounded-3xl bg-gradient-to-br from-amber-100 to-amber-50 border shadow-lg p-8 flex items-center justify-center">
+          <div className="aspect-square rounded-3xl bg-linear-to-br from-amber-100 to-amber-50 border shadow-lg p-8 flex items-center justify-center">
             {/* <div className="w-24 h-24 rounded-xl bg-amber-500/20 flex items-center justify-center">
               <div className="w-12 h-12 rounded-lg bg-amber-500/40" />
             </div> */}

@@ -11,7 +11,7 @@ export default function Pricing() {
   const router = useRouter();
 
   const handleGetStarted = async () => {
-    router.push("/flow");
+    router.push("/");
   }
   
   const handleUpgradeToPro = async () => {
@@ -25,7 +25,7 @@ export default function Pricing() {
   const handleUpgradeToAdvanced = async () => {
     await authClient.subscription.upgrade({
       plan: "advanced",
-      successUrl: "/flow",
+      successUrl: "/",
       cancelUrl: "/"
     });
   }
